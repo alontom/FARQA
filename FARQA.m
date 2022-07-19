@@ -23,9 +23,8 @@ function [coefsSD, lam, coefsDiag, diagRateAvg, coefsWKT, dfas]=FARQA(TS,tau,dim
 % coefsWKT - Wiener Khinchin Theorem: FT of Diag %REC over diag index - including coef, p-val, and R2
 % dfas - H exponent, Detrended Fluctuation Analysis (DFA)
 
-
-
-
+% The authors give no warranty for the correct functioning of the software
+% and cannot be held legally accountable.
 
 sigLen=length(TS); % Signal's length
 coefsSD=nan(1,3); % Approach 1: SD(%REC) over bin size - including coef, p-val, and R2
