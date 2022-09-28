@@ -1,4 +1,10 @@
 function [coefsSD, lam, coefsDiag, diagRateAvg, coefsWKT, dfas]=FARQA(TS,tau,dim,r,norm,zscore)
+% Required functions:
+% dfa - Weron, R. (2011). DFA: MATLAB function to compute the Hurst exponent using Detrended Fluctuation Analysis (DFA).
+% MDRQA - Wallot, S., Roepstorff, A., & MÃ¸nster, D. (2016). Multidimensional Recurrence Quantification Analysis (MdRQA) for the analysis of
+% multidimensional time-series: A software implementation in MATLAB and its application to group-level data in joint action. Frontiers in Psychology,
+% 7, 1835. http://dx.doi.org/10.3389/fpsyg.2016.01835
+
 % Inputs:
 % TS - time series (a column vector)
 % tau - delay parameter
